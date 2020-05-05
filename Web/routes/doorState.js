@@ -5,7 +5,7 @@ var dateFormat = require('dateformat');
 var lockStateDB = mysql.createConnection({
 	host: 'localhost',
 	user: 'LockState',
-	password: 'Safe_Door_State',
+	password: '',
 	database: 'Safe_Door'
 });
 
